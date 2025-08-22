@@ -3,14 +3,11 @@ body {
   font-family: 'Merriweather', serif;
   background-color: #f9f7ff;
   color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .container {
   max-width: 900px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -18,22 +15,22 @@ body {
   background: #ffffff;
   border-radius: 25px;
   padding: 25px;
-  margin: 15px 0;
+  margin: 20px 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-h1 {
+.greeting h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   color: #7a5ea4;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 p {
   font-size: 1.1rem;
-}
-
-.happy-item {
-  background: #f1ecfa;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .image-box {
